@@ -1,0 +1,115 @@
+body {
+    font-family: Arial,sans-serif;
+    background-color:  #f0f0f0; 
+    margin: 0;
+    padding: 20px;
+
+}
+
+.form-container {
+    width: 700px;
+    margin: auto;
+    background: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.18);
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.left-column, .right-column {
+    width: 49%;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3.5px;
+}
+
+input[type="checkbox"] {
+    width: auto;
+    margin-left:5px ;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+button {
+    padding: 8px 15px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 2.5px;
+    cursor: pointer;
+    font-size: 14px;
+
+}
+
+
+button[type="submit"] {
+    background-color: #0e335a;
+    color: beige;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+button[type="button"] {
+    background-color: blanchedalmond;
+}
+button[type="button"]:hover {
+    background-color:white;
+}
+.subscribtion {
+    width: 100%;
+    text-align: right;
+    margin-top: 20px;
+    
+}
+
+.subscribtion label {
+    font-weight: bold;
+}
+.subscribtion input {
+    padding: 8px;
+    width: 60%;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.subscribe-btn {
+    background-color: rgb(127, 255, 138);
+    color: #ccc;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: black;
+}
+
+.subscribe-btn:hover {
+    background-color: rgb(127, 255, 142);
+}
